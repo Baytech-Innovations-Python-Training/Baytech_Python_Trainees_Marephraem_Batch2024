@@ -1,0 +1,16 @@
+#calculator program
+x=int(input("enter a number"))
+y=int(input("enter a number"))
+a=int(input("enter a num"))
+if a==1:
+    print(x+y)
+elif a==2:
+    print(x-y)
+elif a==3:
+    print(x*y)
+elif a==4:
+    print(x/y)
+elif a==5:
+    print(x%y)
+else:
+    print("invalid command")
