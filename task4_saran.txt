@@ -1,0 +1,12 @@
+user=input("enter th name")
+currentreading=int(input("enter the currentreading"))
+previousreading=int(input("enter the previous reading"))
+print(user,currentreading)
+unit=currentreading - previousreading
+print(unit)
+if unit<500:
+    print(" the amount is", 3/4*unit)
+elif unit>=500 and unit<1000:
+    print("the amount is",5/4*unit)
+else:
+    print("the amount is",7/4*unit)
