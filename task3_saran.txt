@@ -1,0 +1,21 @@
+#to find total averge and grade using if condition:
+a=int(input("enter a num"))
+b=int(input("enter a num"))
+c=int(input("enter a num"))
+total=a+b+c
+print(total)
+average=total/3
+print(average)
+if a>=35 and b>=35 and c >=35:
+    print("the student is pass")
+    if average>=90 and average<=100:
+        print("grade A")
+    elif average>=80 and average<=89:
+        print("grade B")
+    elif average>=70 and average<=79:
+        print("grade c")
+    else:
+        print("grade D")
+
+else:
+    print("  the student is fail \n no grade ")
