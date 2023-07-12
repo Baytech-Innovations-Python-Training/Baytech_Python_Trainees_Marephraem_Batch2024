@@ -1,0 +1,10 @@
+#fine program
+x=int(input("enter a number"))
+if x>=1 and x<=5:
+    print(x*(5)," fine")
+elif x>=6 and x<=10:
+    print(x*(10),"fine")
+elif x>=11 and x<=30:
+    print(x*(15),"fine")
+else:
+    print("no fine")
