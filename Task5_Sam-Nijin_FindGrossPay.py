@@ -15,7 +15,7 @@ def find_gross_pay(target_achieved, basic_pay):
     if target_achieved <= 100000:
         gross_pay = target_achieved * 15 / 100
         
-    elif target_achieved > 100000 and target_achieved < 250000:
+    elif target_achieved > 100000 and target_achieved <= 250000:
         gross_pay = target_achieved * 19 / 100
     
     elif target_achieved > 250000:
