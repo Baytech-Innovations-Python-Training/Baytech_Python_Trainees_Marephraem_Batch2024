@@ -1,0 +1,11 @@
+a=input("Enter the employee name:")
+b=int(input("Enter the basic pay:"))
+target=int(input("Enter the target achieved:"))
+if(target <100000):
+    commission=target*0.15
+elif(target >=150000 and target <=250000):
+    commission=target*0.19
+else:
+    commission=target*0.22
+print("The employee name is",a)
+print("The Grosspay of the employee is",b+commission)
