@@ -1,0 +1,42 @@
+#salary calculation
+name=input("enter the employee name")
+designation=input("enter your designation")
+if(designation=="manager"):
+    basic_pay=16000
+    house_rent=basic_pay*12/100
+    DA=basic_pay*40/100
+    travel_allowance=basic_pay*9/100
+    MA=3000
+    LIC=1750
+    PF=basic_pay*45/100
+elif(designation=="team leader"):
+    basic_pay=14500
+    house_rent=basic_pay*9/100
+    DA=basic_pay*37/100
+    travel_allowance=basic_pay*6/100
+    MA=2250
+    LIC=1250
+    PF=basic_pay*37/100
+elif(designation=="executive"):
+    basic_pay=10000
+    house_rent=basic_pay*6/100
+    DA=basic_pay*33/100
+    travel_allowance=basic_pay*4.5/100
+    MA=1800
+    LIC=1000
+    PF=basic_pay*32/100
+else:
+    basic_pay=0
+    house_rent=0
+    DA =0
+    travel_allowance =0
+    MA =0
+    LIC =0
+    PF =0
+gross_pay=basic_pay+house_rent+DA+travel_allowance+MA
+net_pay=gross_pay-(PF+LIC)
+if(gross_pay==0 and net_pay==0):
+    print("invalid designation")
+else:
+    print("name of the employee:",name,"\ndesignation:",designation,"\nemployee gross pay is",gross_pay,)
+    print("employee net pay is",net_pay,"\nemployee basic pay is",basic_pay)
