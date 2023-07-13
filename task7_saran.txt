@@ -1,0 +1,6 @@
+#closing_stock
+opening_stock=int(input("enter the opening_stock"))
+purchase=int(input("enter the purchase"))
+sales=int(input("enter the sales"))
+closing_stock=opening_stock+purchase-sales
+print("CLOSING_STOCK",closing_stock)
