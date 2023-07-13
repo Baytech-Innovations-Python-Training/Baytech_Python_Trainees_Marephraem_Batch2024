@@ -1,0 +1,22 @@
+
+
+
+#fine calculation
+Actual_amount=300
+day=int(input("Enter the number of days delayed:"))
+if(day==0):
+    print("Good, no fine")
+elif(day>=1 and day<=5):
+    fine=5
+    print("fine amount is:",Actual_amount+fine*day)
+elif(day>=6 and day<=10):
+    fine=10
+    print("fine amount is:",Actual_amount+fine*day)
+elif(day>10 and day<=30):
+    fine=15
+    print("fine amount is:",Actual_amount+fine*day)
+else:
+    print("Sorry! Membership canceled")"""
+
+
+
