@@ -1,0 +1,14 @@
+#salary calculation based on target achieved
+basic_pay=15000
+name=input("enter your name")
+target=int(input("enter your target achieved"))
+if(target<100000):
+    commission=target*15/100
+elif(target>=100000 and target<250000):
+    commission=target*19/100
+elif(target>250000):
+    commission=target*22/100
+else:
+    print("invalid")
+gross_pay=basic_pay+commission
+print("the employee name is:",name,"\n the employee salary is",gross_pay)
