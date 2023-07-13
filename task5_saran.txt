@@ -1,0 +1,18 @@
+basic_payment=15000
+target=int(input("enter a target"))
+if target<100000:
+    com_pay=target*15/100
+    print("com_pay",target*15/100)
+elif target>=150000 and target<250000:
+    com_pay=target*19/100
+    print("com_pay",target*19/100)
+elif target>200000:
+    com_pay=200000*22/100
+    print("com_pay",target*22/100)
+gross=basic_payment + com_pay
+print(gross)
+user="saran kumar"
+print(user,gross)
+
+
+
