@@ -1,0 +1,13 @@
+#electricity bill calculation
+name=input("Enter your name:")
+current_reading=int(input("Enter the current reading:"))
+previous_reading=int(input("Enter the previous reading:"))
+unit=current_reading-previous_reading
+if unit<500:
+    amount=unit*3/4
+elif unit>=500 and unit<=1000:
+        amount=unit*5/4
+else:
+        amount=unit*7/4
+print("User Name:",name)
+print("Current charge:",amount)
