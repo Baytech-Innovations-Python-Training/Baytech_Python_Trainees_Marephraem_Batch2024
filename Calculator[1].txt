@@ -1,0 +1,22 @@
+#calculator
+"""a=int(input("Enter the value of a:"))
+b=int(input("Enter the value of b:"))
+c=int(input("Enter the code:"))
+print("1.Addition\t2.Subtraction\t3.Multiplication\t4.Division\t5.Invalid")
+if(c==1):
+    sum=a+b
+    print("The sum is:",sum)
+elif(c==2):
+    diff=a-b
+    print("The difference is:",diff)
+elif(c==3):
+    pdt=a*b
+    print("The product is:",pdt)
+elif(c==4):
+    div=a/b
+    print("The quotient is:",div)
+elif(c==5):
+    mod=a%b
+    print("The remainder is:",mod)
+else:
+    print("The number is invalid")""
