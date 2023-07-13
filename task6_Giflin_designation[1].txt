@@ -1,0 +1,35 @@
+A=input("Enter your name:")
+B=input("Enter your designation:")
+if(B=="manager"):
+    BP=16000
+    HR=0.12*16000
+    DA=0.4*16000
+    TA=0.09*16000
+    MA=3000
+    LIC=1750
+    PF=0.45*16000
+    grosspay=BP+HR+DA+TA+MA
+    netpay=grosspay-(LIC+PF)
+elif(B=="teamleader"):
+    BP=14500
+    HR=0.09*BP
+    DA=0.37*BP
+    TA=0.06*BP
+    MA=2250
+    LIC=1250
+    PF=0.37*BP
+    grosspay=BP+HR+DA+TA+MA
+    netpay=grosspay-(LIC+PF)
+else:
+    BP=10000
+    HR=0.06*BP
+    DA=0.33*BP
+    TA=0.045*BP
+    MA=1800
+    LIC=1000
+    PF=0.32*BP
+print("Employee Name:",A)
+print("Designation:",B)
+print("Gross Pay:",grosspay)
+print("Net Pay:",netpay)
+print("Basic Pay",BP)
