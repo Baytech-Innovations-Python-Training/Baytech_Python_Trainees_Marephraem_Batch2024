@@ -1,0 +1,17 @@
+#current reading
+Name=input("Enter your name:")
+current=int(input("Enter the current reading:"))
+previous=int(input("Enter the previous reading:"))
+unit=current-previous
+print("Name:",Name)
+if(unit<500):
+    amount=(3/4)*unit
+    print("The current charge for the month is ",amount)
+elif(unit>=500 and unit<1000):
+    amount=(5/4)*unit
+    print("The current charge for the month is ",amount)
+else:
+    amount=(7/4)*unit
+    print("The current charge for the month is ",amount)
+
+
