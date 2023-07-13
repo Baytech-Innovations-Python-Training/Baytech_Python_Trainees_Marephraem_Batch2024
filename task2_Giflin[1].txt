@@ -1,0 +1,12 @@
+#membership
+A=int(input("Enter the day:"))
+if(A==0):
+    print("Good,No fine")
+elif(A>=1 and A<=5):
+    print("Fine amount:",A*5)
+elif(A>5 and A<=10):
+    print("Fine amount:",A*10)
+elif(A>10 and A<=30):
+    print("Fine amount:",A*15)
+else:
+    print("Membership cancel")
