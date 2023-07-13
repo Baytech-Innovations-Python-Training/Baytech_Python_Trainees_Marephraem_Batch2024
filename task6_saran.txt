@@ -1,0 +1,67 @@
+user=input("enter a designation")
+print(user)
+if user=="manager":
+    bp=16000
+    hrM=bp*12/100
+    print("HR",hrM)
+    daM=bp*40/100
+    print("DA",daM)
+    taM=bp*9/100
+    print("TA",taM)
+    maM=3000
+    print("MA",maM)
+    licM=1750
+    print("LIC",licM)
+    pfM=bp*45/100
+    print("PF",pfM)
+    employe_name = input("enter a name")
+    print("EMPLOYE_NAME", employe_name)
+    gross_pay=bp+hrM+taM+maM
+    print("GROSS_PAY",gross_pay)
+    net_pay=gross_pay-(licM+pfM)
+    print("NET_PAY",net_pay)
+elif user=="team_leader":
+    bp = 14500
+    hrM = bp*9/100
+    print("HR",hrM)
+    daM = bp*37/100
+    print("DA",daM)
+    taM = bp*6/100
+    print("TA",taM)
+    maM = 2250
+    print("MA",maM)
+    licM = 1250
+    print("LIC",licM)
+    pfM = bp*37/100
+    print("PF",pfM)
+    employe_name = input("enter a name")
+    print("EMPLOYE_NAME", employe_name)
+    gross_pay = bp+hrM+taM+maM
+    print("GROSS_PAY",gross_pay)
+    net_pay = gross_pay-(licM+ pfM)
+    print("NET_PAY", net_pay)
+elif user=="executive":
+    bp = 10000
+    hrM = bp*6/100
+    print("HR",hrM)
+    daM = bp*33/100
+    print("DA",daM)
+    taM = bp*4.5/100
+    print("TA",taM)
+    maM = 1800
+    print("MA",maM)
+    licM = 1000
+    print("LIC",licM)
+    pfM = bp*32/100
+    print("PF", pfM)
+    employe_name = input("enter a name")
+    print("EMPLOYE_NAME", employe_name)
+    gross_pay = bp + hrM + taM + maM
+    print("GROSS_PAY", gross_pay)
+    net_pay = gross_pay - (licM + pfM)
+    print("NET_PAY", net_pay)
+else:
+    print("the employee is not working")
+
+
+
