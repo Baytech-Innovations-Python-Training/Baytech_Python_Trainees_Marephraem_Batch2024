@@ -9,7 +9,9 @@ print(f'The units used is {current_consumption}')
 
 if current_consumption <= 500:
     print(f'The bill is {current_consumption * 3/4}')
+    
 elif current_consumption > 500 and current_consumption <= 1000:
     print(f'The bill is {current_consumption * 5/4}')
+    
 else:
     print(f'The bill is {current_consumption * 7/4}')
