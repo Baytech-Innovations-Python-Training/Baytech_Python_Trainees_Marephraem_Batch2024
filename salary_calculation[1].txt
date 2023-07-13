@@ -1,0 +1,51 @@
+#Salary calculation
+name=input("Enter the name:")
+basic_pay=15000
+target_achieved=int(input("Enter the target achieved:"))
+if target_achieved<100000:
+    commission=target_achieved*0.15
+elif target_achieved>=100000 and target_achieved<250000:
+    commission=target_achieved*0.19
+else:
+    commission=target_achieved*0.22
+gross_pay=basic_pay+commission
+print("Employee name:",name)
+print("Salary:",gross_pay)
+
+
+#salary calculation based on designation
+name=input("Enter Employee name:")
+designation=input("Enter the designation:")
+if designation=="Manager":
+    BP=16000
+    HR=BP*0.12
+    DA=BP*0.40
+    TA=BP*0.09
+    MA=3000
+    LIC=1750
+    PF=BP*0.45
+elif designation=="Team leader":
+    BP=14500
+    HR=BP*0.09
+    DA=BP*0.37
+    TA=BP*0.06
+    MA=2250
+    LIC=1250
+    PF=BP*0.37
+elif designation=="Executive":
+    BP=10000
+    HR=BP*0.06
+    DA=BP*0.33
+    TA=BP*0.045
+    MA=1800
+    LIC=1000
+    PF=BP*0.32
+else:
+    print("Enter proper designation")
+GP=BP+HR+DA+TA+MA
+NP=GP-(LIC+PF)
+print("Employee name:",name)
+print("Designation:",designation)
+print("Gross Pay:",GP)
+print("Net pay:",NP)
+print("Basic pay:",BP)
