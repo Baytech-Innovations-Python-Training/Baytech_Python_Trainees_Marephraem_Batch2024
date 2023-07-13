@@ -1,0 +1,6 @@
+#calculating the number of product in super market
+opening_stock=int(input("enter the opening stock"))
+purchase=int(input("enter the number of purchased item"))
+sales=int(input("enter the number item sale"))
+closing_stock=opening_stock+purchase-sales
+print("the closing stock is",closing_stock) 
