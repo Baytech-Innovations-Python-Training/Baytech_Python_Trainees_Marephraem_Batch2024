@@ -1,0 +1,14 @@
+Name:Jijo R
+Dept:ECE
+Reg no:961420106016
+
+1. str1[1]='a'
+2.1981
+3.Intendation
+4.a**b
+5.type()
+6.i,iii,ii
+7.Pythoniasts
+8.4
+9.lower()
+10.str[11:16]
