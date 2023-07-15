@@ -1,0 +1,16 @@
+Name:Harisankar SS
+Dept:ECE
+Reg no:961420106014
+
+1.c)*
+2.c)3
+3.(ii) 21%6
+  (iii) 12/4
+4.D)It returns the index position of first occurance of "m" in the string str1.
+5.B)str1[5:10]
+6.A) hello world
+7.X=5
+8.b) print()
+9.c) To apply comment we have to use '#' keyword at starting while writing a comment in our
+program.
+10.a) isalpha()
