@@ -1,0 +1,11 @@
+set 3
+1.c)*
+2.c)3
+3.i)andiii)
+4.d)it returns the index position of first occurance of "m"in the string str1
+5.d.)str1[5:10]
+6.d)hello
+7.x
+8.b)print()
+9.d
+10.a)isalpha()
