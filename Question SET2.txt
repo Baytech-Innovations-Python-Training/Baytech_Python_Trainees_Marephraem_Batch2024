@@ -1,0 +1,62 @@
+Question SET:2
+Name:Praise.A
+Roll No:961420106019
+Department:ECE
+
+
+1.a) Negative Indexing
+2.d) str.index("i")
+3.a) 4
+4.c) Value Error occurs
+5.a) /
+6.c) foo
+7.d) None of the mentioned 
+8.d) Comment
+9.b) inside elif block
+10.a)i,ii 
+
+...............
+
+1.Population Program in Python
+
+total_population = 80000
+men = int(total_population * 0.52)
+women = int(total_population * 0.48)
+total_literacy = int(total_population * 0.48)
+literate_men = int(men * 0.35)
+literate_women = int(women * (total_literacy - literate_men) / total_literacy)
+non_literate_men = men - literate_men
+non_literate_women = women - literate_women
+
+print("Population:", total_population)
+print("Men:", men)
+print("Women:", women)
+print("Literacy:", total_literacy)
+print("Literate Men:", literate_men)
+print("Literate Women:", literate_women)
+print("Non-Literate Men:", non_literate_men)
+print("Non-Literate Women:", non_literate_women)
+
+
+2.Currency Program in Python
+
+amt = int(input("Enter amount to be withdrawn in hundreds: "))
+hundred = amt // 100
+amt = amt % 100
+fifty = amt // 50
+amt = amt % 50
+ten = amt // 10
+
+print("Number of hundred-rupee notes:", hundred)
+print("Number of fifty-rupee notes:", fifty)
+print("Number of ten-rupee notes:", ten)
+
+
+3.Cost Price Per Item Program in Python
+
+sp = int(input("Enter total selling price of 15 items: "))
+profit = int(input("Enter total profit earned on 15 items: "))
+
+cp = (sp - profit) / 15
+
+print("Cost price of one item:", cp)
